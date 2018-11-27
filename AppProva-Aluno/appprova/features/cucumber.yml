@@ -1,0 +1,6 @@
+---
+
+default: -p pretty -p html -p homolog
+pretty: --format pretty
+homolog: AMBIENTE=homolog
+html: --format html --out=report/relatorio.html
